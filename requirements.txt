@@ -1,3 +1,19 @@
-# opencv-python
-# scikit-learn
-# pywin32
+# Core libraries
+opencv-python==4.8.0.74          # For face detection and video processing
+dlib==19.24.0                   # For facial landmark detection
+scikit-learn==1.3.0             # For K-Nearest Neighbors (KNN) classifier
+numpy==1.24.2                   # For numerical operations and array handling
+scipy==1.11.1                   # For spatial computations like distances
+imutils==0.5.4                  # Simplifies image processing tasks
+pywin32==305                    # For voice-based acknowledgment on Windows systems
+
+# Optional for debugging and visualization
+matplotlib==3.7.2               # For plotting results (optional for debugging)
+pandas==1.5.3                   # For advanced data handling (optional)
+
+# Install these modules only if enhancements are implemented:
+# mediapipe==0.10.0             # For advanced face/hand tracking
+# opencv-contrib-python==4.8.0.74  # For SIFT, SURF, or advanced OpenCV features
+
+
+# Downlaod "shape_predictor_68_face_landmarks.dat" file form github repository and place it in the same directory as the code, in model folder.
